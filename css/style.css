@@ -21,7 +21,8 @@ html {
     text-decoration: none;
     color: #fff;
 }
-.top-bar-row a:hover{
+
+.top-bar-row a:hover {
     color: rgb(224, 217, 217);
 }
 
@@ -99,43 +100,50 @@ span {
 #about p span {
     display: block;
 }
+
 /* mission-vission */
-.mission-vission{
+.mission-vission {
     text-align: left;
 }
+
 .mission-vission i {
     font-size: 32px;
     color: #1E6692;
     padding: 15px 20px;
     background-color: #f1f7fb;
-    margin:  0 10px;
+    margin: 0 10px;
 }
-.mission-vission i:hover{
+
+.mission-vission i:hover {
     color: #fff;
     background-color: #1E6692;
 }
-.mission-vission h5{
+
+.mission-vission h5 {
     text-transform: uppercase;
     color: #1E6692;
     font-weight: bold;
     letter-spacing: 3px;
 }
-.mission-vission ul li{
+
+.mission-vission ul li {
     list-style-type: circle;
     color: #000000;
     margin-bottom: 7px;
 }
+
 /* About End*/
 
 /* Key factor  Start*/
 .key-factor {
-    background-image: linear-gradient(rgb(0, 0, 0, 0.7), rgb(0, 0, 0, 0.3)), url(/images/keyfactor.jpg);
+    background-image: linear-gradient(rgb(0, 0, 0, 0.7), rgb(0, 0, 0, 0.3)), url(/assets/keyfactor.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
     margin: 50px 0;
 }
-.key-factor h1{
+
+.key-factor h1 {
     text-transform: uppercase;
     font-weight: 600;
     letter-spacing: 5px;
@@ -156,17 +164,20 @@ span {
     background-color: #f1f7fb;
     padding: 15px 30px;
 }
-.key-factor i:hover{
+
+.key-factor i:hover {
     color: #fff;
     background-color: #144e71;
 }
+
 /* Key factor  End*/
 
 
 /* PRODUCTS & SERVICES START */
-#product-service{
+#product-service {
     padding-top: 100px;
 }
+
 #product-service .supply {
     margin: 50px 0px;
 
@@ -181,74 +192,88 @@ span {
     color: #0e3553;
     margin-right: 5px;
 }
+
 /* PRODUCTS & SERVICES END */
 
 /* Contact Us START */
-#contact-us{
+#contact-us {
     padding-top: 100px;
 }
-.contact-form-box{
+
+.contact-form-box {
     text-transform: uppercase;
     text-align: center;
     padding: 40px 0;
 }
-.contact-us-col-box{
+
+.contact-us-col-box {
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.25);
     margin: auto;
     padding: 30px 0;
 }
-.contact-us-col-box i{
+
+.contact-us-col-box i {
     font-size: 25px;
     color: #1E6692;
     padding: 15px 15px;
 
 }
-.contact-form{
+
+.contact-form {
     margin: 30px 0px;
 }
-.contact-form div{
+
+.contact-form div {
     padding: 5px 0;
 }
-.contact-form button{
+
+.contact-form button {
     padding: 5px 20px;
     background-color: #1E6692;
     color: #fff;
     border: none;
 
 }
-.contact-form button:hover{
+
+.contact-form button:hover {
     background-color: #1E6692;
 }
+
 /* Contact Us End */
 
 /* footer */
-.footer{
+.footer {
     background-color: #0b4264;
     color: #fff;
 }
-.footer-box{
+
+.footer-box {
     padding: 30px;
 }
-.footer-box a{
+
+.footer-box a {
     color: #fff;
     text-decoration: none;
-    
+
 }
+
 .footer-box a:hover {
     color: #1E6692;
 
 }
-.footer-box h6{
+
+.footer-box h6 {
     font-size: 25px;
     letter-spacing: 5px;
     margin-bottom: 20px;
     text-transform: uppercase;
 }
-.contact-option p{
+
+.contact-option p {
     margin-top: 60px;
 }
 
-.footer-contact-info .social-links a{
+.footer-contact-info .social-links a {
     font-size: 18px;
     margin: 15px 10px;
     padding: 10px 15px;
@@ -256,22 +281,26 @@ span {
     border-radius: 50%;
 
 }
-.footer-contact-info .social-links a:hover{
+
+.footer-contact-info .social-links a:hover {
     background-color: #fff;
     color: #1E6692;
 }
-.footer-quick-links ul li{
+
+.footer-quick-links ul li {
     list-style-type: none;
     text-decoration: none;
     margin-bottom: 18px;
 }
+
 .footer-newsletter input[type="email"] {
     margin-right: 2px;
     border: none;
     padding: 8px 8px;
     border: none;
 }
-.footer-newsletter input[type="submit"]{
+
+.footer-newsletter input[type="submit"] {
     border: none;
     padding: 8px 8px;
     color: rgb(255, 255, 255);
@@ -280,10 +309,11 @@ span {
 }
 
 
-.footer-end{
+.footer-end {
     border-top: 1px solid #fff;
     padding: 25px;
 }
+
 /* footer */
 
 
