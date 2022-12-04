@@ -136,7 +136,7 @@ span {
 
 /* Key factor  Start*/
 .key-factor {
-    background-image: linear-gradient(rgb(0, 0, 0, 0.7), rgb(0, 0, 0, 0.3)), url(/assets/keyfactor.jpg);
+    background-image: linear-gradient(rgb(0, 0, 0, 0.7), rgb(0, 0, 0, 0.3)), url(./assets/keyfactor.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
