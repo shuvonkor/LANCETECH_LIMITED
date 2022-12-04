@@ -12,7 +12,7 @@ html {
 /* Top Bar  */
 #top-bar {
     background-color: #1E6692;
-    font-size: 13px;
+    font-size: 12px;
 }
 
 .contact-info {}
@@ -20,6 +20,9 @@ html {
 .top-bar-row a {
     text-decoration: none;
     color: #fff;
+}
+.top-bar-row a:hover{
+    color: rgb(224, 217, 217);
 }
 
 #top-bar i,
@@ -81,7 +84,7 @@ span {
 }
 
 #about h1 {
-    color: #1C6390;
+    color: #1E6692;
     font-weight: 600;
     letter-spacing: 5px;
     margin-bottom: 20px;
@@ -96,55 +99,192 @@ span {
 #about p span {
     display: block;
 }
-
-.mission-vission {}
-
+/* mission-vission */
+.mission-vission{
+    text-align: left;
+}
+.mission-vission i {
+    font-size: 32px;
+    color: #1E6692;
+    padding: 15px 20px;
+    background-color: #f1f7fb;
+    margin:  0 10px;
+}
+.mission-vission i:hover{
+    color: #fff;
+    background-color: #1E6692;
+}
+.mission-vission h5{
+    text-transform: uppercase;
+    color: #1E6692;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+.mission-vission ul li{
+    list-style-type: circle;
+    color: #000000;
+    margin-bottom: 7px;
+}
 /* About End*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* Key factor  Start*/
 .key-factor {
-    background-image: linear-gradient(rgb(0, 0, 0, 0.7), rgb(0, 0, 0, 0.7)), url(/images/keyfactor.jpg);
+    background-image: linear-gradient(rgb(0, 0, 0, 0.7), rgb(0, 0, 0, 0.3)), url(/images/keyfactor.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
+    margin: 50px 0;
+}
+.key-factor h1{
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 5px;
+    letter-spacing: 5px;
+    color: #fff;
+    padding: 30px 0;
 }
 
-.key-factor h1 {
+.key-factor h5 {
     text-transform: uppercase;
     margin-top: 30px;
-    font-size: 30px;
+    font-size: 15px;
 }
 
 .key-factor i {
-    font-size: 80px;
-    color: rgb(11, 194, 21);
-    border: 2px solid #fff;
+    font-size: 50px;
+    color: #144e71;
+    background-color: #f1f7fb;
     padding: 15px 30px;
 }
-
+.key-factor i:hover{
+    color: #fff;
+    background-color: #144e71;
+}
 /* Key factor  End*/
 
 
+/* PRODUCTS & SERVICES START */
+#product-service{
+    padding-top: 100px;
+}
+#product-service .supply {
+    margin: 50px 0px;
+
+}
+
+#product-service span {
+    display: block;
+    font-size: 16px;
+}
+
+#product-service span i {
+    color: #0e3553;
+    margin-right: 5px;
+}
+/* PRODUCTS & SERVICES END */
+
+/* Contact Us START */
+#contact-us{
+    padding-top: 100px;
+}
+.contact-form-box{
+    text-transform: uppercase;
+    text-align: center;
+    padding: 40px 0;
+}
+.contact-us-col-box{
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.25);
+    margin: auto;
+    padding: 30px 0;
+}
+.contact-us-col-box i{
+    font-size: 25px;
+    color: #1E6692;
+    padding: 15px 15px;
+
+}
+.contact-form{
+    margin: 30px 0px;
+}
+.contact-form div{
+    padding: 5px 0;
+}
+.contact-form button{
+    padding: 5px 20px;
+    background-color: #1E6692;
+    color: #fff;
+    border: none;
+
+}
+.contact-form button:hover{
+    background-color: #1E6692;
+}
+/* Contact Us End */
+
+/* footer */
+.footer{
+    background-color: #0b4264;
+    color: #fff;
+}
+.footer-box{
+    padding: 30px;
+}
+.footer-box a{
+    color: #fff;
+    text-decoration: none;
+    
+}
+.footer-box a:hover {
+    color: #1E6692;
+
+}
+.footer-box h6{
+    font-size: 25px;
+    letter-spacing: 5px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+.contact-option p{
+    margin-top: 60px;
+}
+
+.footer-contact-info .social-links a{
+    font-size: 18px;
+    margin: 15px 10px;
+    padding: 10px 15px;
+    background-color: #1E6692;
+    border-radius: 50%;
+
+}
+.footer-contact-info .social-links a:hover{
+    background-color: #fff;
+    color: #1E6692;
+}
+.footer-quick-links ul li{
+    list-style-type: none;
+    text-decoration: none;
+    margin-bottom: 18px;
+}
+.footer-newsletter input[type="email"] {
+    margin-right: 2px;
+    border: none;
+    padding: 8px 8px;
+    border: none;
+}
+.footer-newsletter input[type="submit"]{
+    border: none;
+    padding: 8px 8px;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    background-color: #30C730;
+}
 
 
+.footer-end{
+    border-top: 1px solid #fff;
+    padding: 25px;
+}
+/* footer */
 
 
 
