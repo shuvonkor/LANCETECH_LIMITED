@@ -6,17 +6,14 @@
 }
 
 html {
-    /* scroll-behavior: smooth; */
+    scroll-behavior: smooth;
 }
 
 /* Top Bar  */
 #top-bar {
     background-color: #1E6692;
-    font-size: 12px;
+    font-size: 14px;
 }
-
-.contact-info {}
-
 .top-bar-row a {
     text-decoration: none;
     color: #fff;
@@ -51,6 +48,7 @@ span {
 /* Slider  */
 .carousel-item img {
     max-height: 700px;
+    min-height: 300px;
     filter: brightness(45%);
 }
 
@@ -59,7 +57,7 @@ span {
 }
 
 .carousel-caption h1 {
-    font-size: 55px;
+    font-size: 40px;
     text-transform: uppercase;
     letter-spacing: 8px;
     color: #fff;
