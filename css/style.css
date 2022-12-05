@@ -84,8 +84,7 @@ span {
 
 #about h1 {
     color: #1E6692;
-    font-weight: 600;
-    letter-spacing: 5px;
+    font-weight: bold;
     margin-bottom: 20px;
 }
 
@@ -144,8 +143,6 @@ span {
 .key-factor h1 {
     text-transform: uppercase;
     font-weight: 600;
-    letter-spacing: 5px;
-    letter-spacing: 5px;
     color: #fff;
     padding: 30px 0;
 }
@@ -175,6 +172,10 @@ span {
 #product-service {
     padding-top: 100px;
 }
+#product-service h1{
+    color: #1E6692;
+    font-weight: bold;
+}
 
 #product-service .supply {
     margin: 50px 0px;
@@ -187,7 +188,7 @@ span {
 }
 
 #product-service span i {
-    color: #0e3553;
+    color: #1E6692;
     margin-right: 5px;
 }
 
@@ -197,7 +198,12 @@ span {
 #contact-us {
     padding-top: 100px;
 }
+.product_service-title-description h1, .contact-form-box h1{
+    color: #1E6692;
+    font-weight: bold;
+    text-transform: uppercase;
 
+}
 .contact-form-box {
     text-transform: uppercase;
     text-align: center;
