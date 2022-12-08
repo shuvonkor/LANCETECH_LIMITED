@@ -11,16 +11,16 @@ html {
 
 /* Top Bar  */
 #top-bar {
-    background-color: #1E6692;
+    background-color: rgb(245, 244, 248);
     font-size: 14px;
 }
 .top-bar-row a {
     text-decoration: none;
-    color: #fff;
+    color: #047ac4;
 }
 
 .top-bar-row a:hover {
-    color: rgb(224, 217, 217);
+    color: rgb(23, 138, 233);
 }
 
 #top-bar i,
