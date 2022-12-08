@@ -137,17 +137,23 @@
                 <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 text-center">
                     <p>
                         <span>
-                            LANCETECH LIMITED is current designed association took part in giving a large number of lab things and organizations
-                            used in QC, QA, Bio-drugs and R and D labs. We confide in "Administration Backing with Care and dependability".
+                            LANCETECH LIMITED is current designed association took part in giving a large number of lab
+                            things and organizations
+                            used in QC, QA, Bio-drugs and R and D labs. We confide in "Administration Backing with Care
+                            and dependability".
                         </span>
                         <span>
-                            Every one of its tasks are overseen by a group of expert and talented individuals. We are devoted to seeking after
-                            significance through extraordinary assistance, and enabled workers to provide our clients with the most extensive level
+                            Every one of its tasks are overseen by a group of expert and talented individuals. We are
+                            devoted to seeking after
+                            significance through extraordinary assistance, and enabled workers to provide our clients
+                            with the most extensive level
                             of delight.
                         </span>
                         <span>
-                            LANCETECH LIMITED focuses on the healthcare industry, especially the pharmaceutical, research laboratory, testing labs,
-                            hospital sectors as well as food & beverages, textiles to provide them with high-quality goods and services in
+                            LANCETECH LIMITED focuses on the healthcare industry, especially the pharmaceutical,
+                            research laboratory, testing labs,
+                            hospital sectors as well as food & beverages, textiles to provide them with high-quality
+                            goods and services in
                             accordance with their necessities.
                         </span>
                     </p>
@@ -160,8 +166,10 @@
                                 <h5>MISSION</h5>
                                 <ul>
                                     <li>We endeavor to be the business standard in support of our customers.</li>
-                                    <li>We maintain a superior level of integrity in interactions with business partners and associates.</li>
-                                    <li>We keep an unrivaled degree of respectability in cooperations with business partners and associates.</li>
+                                    <li>We maintain a superior level of integrity in interactions with business partners
+                                        and associates.</li>
+                                    <li>We keep an unrivaled degree of respectability in cooperations with business
+                                        partners and associates.</li>
                                 </ul>
                             </div>
                         </div>
@@ -172,8 +180,9 @@
                             <div class="">
                                 <h5>Vission</h5>
                                 <ul>
-                                    <li>To turn into the inventive impelled turnkey arrangement supplier to the worldwide Health care and life science
-                                    enterprises.</li>
+                                    <li>To turn into the inventive impelled turnkey arrangement supplier to the
+                                        worldwide Health care and life science
+                                        enterprises.</li>
                                 </ul>
                             </div>
                         </div>
@@ -220,9 +229,11 @@
         <div class="container">
             <div class="product_service-title-description">
                 <h1 class="text-center">PRODUCTS & SERVICES</h1>
-                <p>LANCETECH LIMITED supply a wide range of lab equipment, materials and analytical instruments for pharmaceutical
-                companies, biochemistry labs, microbiology labs, research laboratory, university research labs, food & beverages,
-                testing labs, textiles.</p>
+                <p>LANCETECH LIMITED supply a wide range of lab equipment, materials and analytical instruments for
+                    pharmaceutical
+                    companies, biochemistry labs, microbiology labs, research laboratory, university research labs, food
+                    & beverages,
+                    testing labs, textiles.</p>
             </div>
             <div class="row supply">
                 <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
@@ -285,29 +296,29 @@
             <!-- contact-form  -->
             <div class="contact-form-box">
                 <h1>Get in Touch</h1>
-                <form class="contact-form" action="index.php" method="POST" id="formid">
+                <form onsubmit="getInTouchSendEmail(); reset(); return false;" class="contact-form">
                     <div class="row m-auto">
                         <div class="col-lg-6 form-group">
-                            <input type="text" name="name" class="form-control" id="contact-name"
+                            <input type="text" name="name" class="form-control" id="name"
                                 placeholder="Your Name" required="" data-rule="minlen:4"
                                 data-msg="Please enter at least 4 chars">
                             <div class="validate"></div>
                         </div>
                         <div class="col-lg-6 form-group">
-                            <input type="email" class="form-control" name="email" id="contact-email"
+                            <input type="email" class="form-control" name="email" id="email"
                                 placeholder="Your Email" required="" data-rule="email"
                                 data-msg="Please enter a valid email">
                             <div class="validate"></div>
                         </div>
                     </div>
                     <div class="form-group">
-                        <input type="text" class="form-control" name="subject" id="contact-subject"
+                        <input type="text" class="form-control" name="subject" id="subject"
                             placeholder="Subject" required="">
                         <div class="validate"></div>
                     </div>
                     <div class="form-group">
                         <textarea class="form-control" name="message" rows="5" placeholder="Message"
-                            required=""></textarea>
+                            id="message" required=""></textarea>
                         <div class="validate"></div>
                     </div>
                     <br>
@@ -409,10 +420,33 @@
         window.onload = calcScrollValue;
 
     </script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script>
+        function getInTouchSendEmail() {
+            Email.send({
+                Host: "smtp.elasticemail.com",
+                Username: "dip.lancetechltd@gmail.com",
+                Password: "BBA7402E07CB886E415706F044C0F8F39240",
+                To: 'info@lancetechltd.com',
+                From: document.getElementById("email").value,
+                Subject: "New contact Form Enquiry",
+                Body: "Name: " + document.getElementById("name").value
+                    + "<br> Email: " + document.getElementById("email").value
+                    + "<br> Email: " + document.getElementById("subject").value
+                    + "<br> Email: " + document.getElementById("message").value
+            }).then(
+                message =>{
+                    
+                     alert("Message Sent Succesfully", message)
+                }
+            );
+        }
+    </script>
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
+        <!-- // SecureToken: "86a5e469-40d6-4e1f-be8f-a9e0b104658d", -->
 </body>
 
 </html>
